@@ -1,0 +1,8 @@
+#!/bin/sh
+#
+# Stage all unstaged.
+branch=${1}
+if [ -z $branch ]; then
+  branch=origin
+fi
+git config --get remote.$branch.url

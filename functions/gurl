@@ -1,8 +1,0 @@
-gurl() {
-  local value=${1}
-  if [ -z $value ]; then
-    value=origin
-  fi
-  value=`git remote show $value | grep http.\*| awk -F ' ' '{print $3}' | head -n1`
-  echo $value
-}
