@@ -1,1 +1,2 @@
 prefix=${HOME}/.npm
+loglevel=http
