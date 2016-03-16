@@ -20,3 +20,4 @@ alias gs='git status -sb' # upgrade your git if -sb breaks for you. it's fun.
 alias gurl='git-remote-url'
 alias gka='gitk --all'
 alias guit='git gui'
+alias gac='git add -A && git commit -m'
