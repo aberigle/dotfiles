@@ -1,2 +1,1 @@
-prefix=${HOME}/.npm
-loglevel=http
+loglevel=warn
